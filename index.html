@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firdausi Nuzula — Portofolio Desainer UI/UX</title>
+  <meta name="description" content="Portofolio resmi Firdausi Nuzula, Desainer UI/UX yang berfokus pada desain berpusat pada pengguna, sistem desain terstruktur, dan prototipe interaktif.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- navbar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-text">Firdausi Nuzula<span class="dot-gold">.</span></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Beranda</a></li>
+          <li><a href="#about" class="nav-link">Tentang Saya</a></li>
+          <li><a href="#tools" class="nav-link">Tools yang Dikuasai</a></li>
+          <li><a href="#figma" class="nav-link">Figma</a></li>
+          <li><a href="#projects" class="nav-link">Proyek</a></li>
+          <li><a href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Buka Menu Navigasi">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- beranda -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content reveal fade-up">
+
+            <h1 class="hero-person-name">
+              <span class="hero-name-text">Firdausi Nuzula</span>
+            </h1>
+
+            <div class="hero-role-row">
+              <span class="role-prefix">Sebagai</span>
+              <h3 class="hero-role-title">
+                <span>UI/UX Designer</span>
+              </h3>
+            </div>
+
+            <p class="hero-lead-text">
+              Selamat datang di portofolio saya! Saya merancang pengalaman digital yang fungsional. 
+              Menggabungkan riset pengguna mendalam, prototyping interaktif di Figma, 
+              serta implementasi kode frontend dan backend yang terstruktur.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#figma" class="btn btn-gold">
+                <i class="fa-brands fa-figma"></i>
+                <span>Karya Figma</span>
+              </a>
+              <a href="#projects" class="btn btn-cream-outline">
+                <i class="fa-brands fa-github"></i>
+                <span>Lihat Repositori Proyek</span>
+              </a>
+            </div>
+
+            <div class="hero-quick-socials">
+              <div class="social-pills-row">
+                <a href="mailto:firdausin007@gmail.com" class="social-pill" title="Kirim Email ke Firdausi">
+                  <i class="fa-regular fa-envelope"></i>
+                  <span>Email</span>
+                </a>
+                <a href="https://wa.me/6282245514388" target="_blank" rel="noopener" class="social-pill" title="Kirim Pesan WhatsApp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <span>WhatsApp</span>
+                </a>
+                <a href="https://instagram.com/f.frdss__" target="_blank" rel="noopener" class="social-pill" title="Kunjungi Profil Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                  <span>@f.frdss__</span>
+                </a>
+                <a href="https://github.com/firdausinzzl" target="_blank" rel="noopener" class="social-pill" title="Lihat Repositori GitHub">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bagian Foto Profil Hero -->
+          <div class="hero-image-wrapper reveal slide-left">
+            <div class="photo-glow-backdrop"></div>
+            <div class="hero-photo-frame">
+              <div class="hero-photo-inner">
+                <img src="aset/profil.jpg" alt="Firdausi Nuzula — Desainer UI/UX" class="hero-photo-img">
+              </div>
+
+              <!-- Floating badge Figma -->
+              <div class="photo-figma-badge" title="Figma Specialist">
+                <i class="fa-brands fa-figma"></i>
+              </div>
+
+              <!-- Floating pill Role -->
+              <div class="photo-floating-pill pill-top">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <span>UI/UX Designer</span>
+              </div>
+
+              <!-- Floating pill Status -->
+              <div class="photo-floating-pill pill-bottom">
+                <span class="status-dot-pulse"></span>
+                <span>Terbuka untuk Proyek</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- tentang -->
+    <section class="section section-cream" id="about">
+      <div class="container">
+        <div class="section-heading text-center reveal fade-up">
+          <h2 class="title-dark">Tentang <span class="highlight-gold">Firdausi Nuzula</span></h2>
+          <div class="gold-line"></div>
+          <p class="subtitle-dark">
+            Menyeimbangkan kepuasan pengguna dengan tujuan strategis bisnis melalui 
+            pendekatan desain berpusat pada manusia, pemetaan empati, dan interaksi presisi.
+          </p>
+        </div>
+
+        <div class="about-balanced-grid">
+          <!-- kotak kiri -->
+          <div class="about-card-light reveal slide-right">
+            <div class="card-pill-tag">Peran: UI/UX</div>
+            <h3 class="about-card-title">Menciptakan Pengalaman Digital yang Bermakna dengan Empati Pengguna</h3>
+            <p class="about-p">
+              Halo, saya <strong>Firdausi Nuzula</strong>, 
+              seorang desainer produk digital dengan spesialisasi utama dalam <strong>Desain UI/UX</strong>. 
+              Di tengah ramainya dunia digital, tujuan saya adalah merancang antarmuka yang terasa alami, mudah diakses, 
+              dan menyenangkan sejak interaksi pertama.
+            </p>
+            <p class="about-p">
+              Pendekatan saya mencakup seluruh siklus <em>design thinking</em>: 
+              melakukan wawancara riset pengguna, merancang arsitektur informasi yang intuitif, 
+              menyusun sistem desain komponen modular di Figma, 
+              hingga membangun prototipe interaktif untuk memvalidasi kepuasan pengguna sebelum tahap pengembangan kode.
+            </p>
+          </div>
+
+          <!-- kotak kanan -->
+          <div class="competence-cards-grid reveal slide-left">
+            <!-- UI -->
+            <div class="competence-card">
+              <div class="comp-icon-box">
+                <i class="fa-solid fa-pen-ruler"></i>
+              </div>
+              <h4 class="comp-title">UI</h4>
+              <p class="comp-desc">Harmoni palet warna, tipografi proporsional, serta tata letak responsif yang rapi.</p>
+            </div>
+
+            <!-- UX -->
+            <div class="competence-card">
+              <div class="comp-icon-box">
+                <i class="fa-solid fa-users-viewfinder"></i>
+              </div>
+              <h4 class="comp-title">UX</h4>
+              <p class="comp-desc">Analisis user, information, dan pengujian prototype.</p>
+            </div>
+
+            <!-- Design System -->
+            <div class="competence-card">
+              <div class="comp-icon-box">
+                <i class="fa-solid fa-layer-group"></i>
+              </div>
+              <h4 class="comp-title">Design System</h4>
+              <p class="comp-desc">Penyusunan komponen di Figma yang reusable, rapi, dan mudah di-handoff ke developer.</p>
+            </div>
+
+            <!-- Frontend -->
+            <div class="competence-card">
+              <div class="comp-icon-box">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <h4 class="comp-title">Frontend</h4>
+              <p class="comp-desc">Mampu mewujudkan konsep desain menjadi kode nyata yang dinamis, cepat, dan teruji.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- tools -->
+    <section class="section section-navy" id="tools">
+      <div class="container">
+        <div class="section-heading text-center reveal fade-up">
+          <h2 class="title-light">Tools yang <span class="highlight-gold">Dikuasai</span></h2>
+          <div class="gold-line"></div>
+          <p class="subtitle-light">
+            Rangkaian perangkat lunak industri yang digunakan setiap hari untuk riset, 
+            perancangan kerangka kawat, desain UI resolusi tinggi, dan kolaborasi teknis.
+          </p>
+        </div>
+
+        <div class="tools-compact-grid">
+          <!-- figma -->
+          <div class="tool-compact-card reveal zoom-in" data-delay="100">
+            <div class="tool-compact-icon">
+              <i class="fa-brands fa-figma"></i>
+            </div>
+            <div class="tool-compact-info">
+              <h3 class="tool-compact-title">Figma</h3>
+              <p class="tool-compact-sub">UI/UX dan Prototyping</p>
+            </div>
+          </div>
+
+          <!-- canva -->
+          <div class="tool-compact-card reveal zoom-in" data-delay="150">
+            <div class="tool-compact-icon">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <div class="tool-compact-info">
+              <h3 class="tool-compact-title">Canva</h3>
+              <p class="tool-compact-sub">Graphic dan Asset Creation</p>
+            </div>
+          </div>
+
+          <!-- HTML5 -->
+          <div class="tool-compact-card reveal zoom-in" data-delay="200">
+            <div class="tool-compact-icon">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="tool-compact-info">
+              <h3 class="tool-compact-title">HTML5</h3>
+              <p class="tool-compact-sub">Semantic dan Clean Markup</p>
+            </div>
+          </div>
+
+          <!-- CSS3 -->
+          <div class="tool-compact-card reveal zoom-in" data-delay="250">
+            <div class="tool-compact-icon">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="tool-compact-info">
+              <h3 class="tool-compact-title">CSS3</h3>
+              <p class="tool-compact-sub">Flexbox, Grid dan Animation</p>
+            </div>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="tool-compact-card reveal zoom-in" data-delay="300">
+            <div class="tool-compact-icon">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <div class="tool-compact-info">
+              <h3 class="tool-compact-title">JavaScript</h3>
+              <p class="tool-compact-sub">Logic dan Interaction</p>
+            </div>
+          </div>
+
+          <!-- PHP -->
+          <div class="tool-compact-card reveal zoom-in" data-delay="350">
+            <div class="tool-compact-icon">
+              <i class="fa-brands fa-php"></i>
+            </div>
+            <div class="tool-compact-info">
+              <h3 class="tool-compact-title">PHP</h3>
+              <p class="tool-compact-sub">Server-side Scripting</p>
+            </div>
+          </div>
+
+          <!-- MySQL -->
+          <div class="tool-compact-card reveal zoom-in" data-delay="400">
+            <div class="tool-compact-icon">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <div class="tool-compact-info">
+              <h3 class="tool-compact-title">MySQL</h3>
+              <p class="tool-compact-sub">Database Management</p>
+            </div>
+          </div>
+
+          <!-- Laravel -->
+          <div class="tool-compact-card reveal zoom-in" data-delay="450">
+            <div class="tool-compact-icon">
+              <i class="fa-brands fa-laravel"></i>
+            </div>
+            <div class="tool-compact-info">
+              <h3 class="tool-compact-title">Laravel</h3>
+              <p class="tool-compact-sub">Web Framework</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- karya figma -->
+    <section class="section section-navy-surface" id="figma">
+      <div class="container">
+        <div class="section-heading text-center reveal fade-up">
+          <h2 class="title-light">gambar desain figma</h2>
+          <div class="gold-line"></div>
+          <p class="subtitle-light">
+            Klik desain Figma di bawah ini untuk <strong>melihat dengan layar penuh</strong> 
+          </p>
+        </div>
+
+        <div class="figma-balanced-grid figma-single-item">
+          <!-- gambar figma -->
+          <div class="figma-showcase-box reveal slide-up" data-card-id="1" tabindex="0" role="button" aria-label="Buka Detail Studi Kasus NeoBank Mobile">
+            <div class="mockup-frame">
+              <img src="aset/Figma.jpg" alt="Karya Desain Figma" class="figma-img-cover">
+
+              <div class="hover-expand-layer">
+                <span class="expand-pill"><i class="fa-solid fa-maximize"></i> Buka Pop-up Layar Penuh</span>
+              </div>
+            </div>
+
+            <div class="figma-box-info">
+              <div class="info-tag-list">
+                <span class="tag-pill">UX</span>
+                <span class="tag-pill">figma</span>
+                <span class="tag-pill">Sistem Desain</span>
+              </div>
+              <h3 class="info-title">NeoBank: Antarmuka Perbankan Digital Generasi Baru</h3>
+              <p class="info-desc">
+                Pengalaman aplikasi keuangan mobile menyeluruh yang dirancang untuk transfer instan tanpa hambatan, otentikasi biometrik, dan kejelasan finansial pengguna.
+              </p>
+              <div class="info-action">
+                <span>Klik untuk melihat pop-up layar penuh</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project -->
+    <section class="section section-cream" id="projects">
+      <div class="container">
+        <div class="section-heading text-center reveal fade-up">
+          <h2 class="title-dark">Proyek yang di <span class="highlight-gold"> kerjakan  </span></h2>
+          <div class="gold-line"></div>
+          <p class="subtitle-dark">
+            Tiga proyek digital yang selesai dan yang sedang proses
+            dan tombol yang menghubungkan langsung ke repositori resmi di GitHub.
+          </p>
+        </div>
+
+        <div class="projects-balanced-grid">
+          <!-- project 1 -->
+          <div class="project-balanced-card reveal slide-up" data-delay="100">
+            <div class="card-badge-header">
+              <span class="badge-num">1</span>
+              <div class="category-pills">
+                <span class="pill-dark"> PHP </span>
+                <span class="pill-dark"> CSS </span>
+              </div>
+            </div>
+
+            <div class="card-content-wrap">
+              <h3 class="project-title-text">
+                Sistem Pendataan Koleksi Komik Sekolah
+              </h3>
+              <p class="project-summary-text">
+                Aplikasi untuk mendata koleksi komik sekolah, status
+                peminjaman, serta informasi anggota peminjam.
+              </p>
+
+              <ul class="project-points-list">
+                <li><i class="fa-solid fa-circle-check text-gold"></i> fitur pencarian komik berdasarkan judul, kategori, atau kode </li>
+                <li><i class="fa-solid fa-circle-check text-gold"></i> fitur pengembalian komik dan validasi peminjaman </li>
+              </ul>
+            </div>
+
+            <div class="card-btn-footer">
+              <a href="https://github.com/firdausinzzl/Project-Akhir" class="btn btn-project-repo" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i>
+                <span>Lihat Repositori</span>
+                <i class="fa-solid fa-arrow-right-long arrow-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- project 2 -->
+          <div class="project-balanced-card reveal slide-up" data-delay="200">
+            <div class="card-badge-header">
+              <span class="badge-num">2</span>
+              <div class="category-pills">
+                <span class="pill-dark">HTML</span>
+                <span class="pill-dark">CSS</span>
+                <span class="pill-dark">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="card-content-wrap">
+              <h3 class="project-title-text">
+                 flappy-bird
+              </h3>
+              <p class="project-summary-text">
+                 kegiatan atau tugas pembuatan ulang (re-creation) dari video game populer Flappy Bird, 
+                 yang sering digunakan sebagai proyek latihan dalam pembelajaran pemrograman dan pengembangan game 
+                 (game development).
+              </p>
+
+              <ul class="project-points-list">
+                <li><i class="fa-solid fa-circle-check text-gold"></i> Kendali Satu Ketukan </li>
+                <li><i class="fa-solid fa-circle-check text-gold"></i> Sistem Skor Tak Terbatas </li>
+                <li><i class="fa-solid fa-circle-check text-gold"></i> Rintangan Pipa Generasi Acak </li>
+              </ul>
+            </div>
+
+            <div class="card-btn-footer">
+              <a href="https://github.com/firdausinzzl/flappy-bird" class="btn btn-project-repo" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i>
+                <span>Lihat Repositori</span>
+                <i class="fa-solid fa-arrow-right-long arrow-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- project 3 -->
+          <div class="project-balanced-card reveal slide-up" data-delay="300">
+            <div class="card-badge-header">
+              <span class="badge-num">3</span>
+              <div class="category-pills">
+                <span class="pill-dark">HTML</span>
+                <span class="pill-dark">CSS</span>
+                <span class="pill-dark">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="card-content-wrap">
+              <h3 class="project-title-text">
+                 portofolio 
+              </h3>
+              <p class="project-summary-text">
+                 kumpulan karya, dokumen, atau aset nyata yang disusun secara teratur untuk menunjukkan kemampuan,
+                 pengalaman, dan pencapaian seseorang atau kelompok.
+              </p>
+
+              <ul class="project-points-list">
+                <li><i class="fa-solid fa-circle-check text-gold"></i> desain yang responsif </li>
+                <li><i class="fa-solid fa-circle-check text-gold"></i> modern UI/UX </li>
+              </ul>
+            </div>
+
+            <div class="card-btn-footer">
+              <a href="https://github.com/firdausinzzl/Portofolio_Firdausi" class="btn btn-project-repo" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i>
+                <span>Lihat Repositori</span>
+                <i class="fa-solid fa-arrow-right-long arrow-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- kontak -->
+    <section class="section section-navy" id="contact">
+      <div class="container">
+        <div class="section-heading text-center reveal fade-up">
+          <h2 class="title-light">Mari <span class="highlight-gold">Berkolaborasi</span></h2>
+          <div class="gold-line"></div>
+          <p class="subtitle-light">
+            Memiliki proyek baru, inisiatif sistem desain, atau ingin mendiskusikan tantangan pengalaman pengguna? 
+            Hubungi saya langsung melalui kanal di bawah ini!
+          </p>
+        </div>
+
+        <div class="contact-balanced-grid">
+          <!-- kolom kontak -->
+          <div class="contact-channels-column reveal slide-right">
+            <!-- email -->
+            <div class="channel-card-item">
+              <div class="channel-icon-wrap icon-email">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="channel-info-wrap">
+                <span class="channel-type">Alamat Email</span>
+                <strong class="channel-text">firdausin007@gmail.com</strong>
+              </div>
+              <div class="channel-actions">
+                <a href="mailto:firdausin007@gmail.com" class="action-btn" title="Buka Aplikasi Email">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                <button class="action-btn" onclick="copyContact('firdausin007@gmail.com', 'Alamat Email')" title="Salin Email">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- wa -->
+            <div class="channel-card-item">
+              <div class="channel-icon-wrap icon-wa">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div class="channel-info-wrap">
+                <span class="channel-type">Nomor WhatsApp</span>
+                <strong class="channel-text">+62 822-4551-4388</strong>
+              </div>
+              <div class="channel-actions">
+                <a href="https://wa.me/6282245514388" target="_blank" rel="noopener" class="action-btn" title="Chat via WhatsApp">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                <button class="action-btn" onclick="copyContact('+6282245514388', 'Nomor WhatsApp')" title="Salin Nomor WhatsApp">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- ig-->
+            <div class="channel-card-item">
+              <div class="channel-icon-wrap icon-ig">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="channel-info-wrap">
+                <span class="channel-type">Akun Instagram</span>
+                <strong class="channel-text">@f.frdss__</strong>
+              </div>
+              <div class="channel-actions">
+                <a href="https://instagram.com/f.frdss__" target="_blank" rel="noopener" class="action-btn" title="Kunjungi Profil Instagram">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- GitHub -->
+            <div class="channel-card-item">
+              <div class="channel-icon-wrap icon-git">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="channel-info-wrap">
+                <span class="channel-type">Profil GitHub</span>
+                <strong class="channel-text">github.com/firdausinzzl</strong>
+              </div>
+              <div class="channel-actions">
+                <a href="https://github.com/firdausinzzl" target="_blank" rel="noopener" class="action-btn" title="Buka Profil GitHub">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- kotak kirim -->
+          <div class="contact-form-column reveal slide-left">
+            <div class="form-container-card">
+              <h3 class="form-title">Kirim Pesan Langsung</h3>
+              <p class="form-subtitle">Isi formulir singkat di bawah ini</p>
+
+              <form id="contactForm" onsubmit="event.preventDefault(); handleFormDispatch();">
+                <div class="form-row">
+                  <label for="inputName">Nama Lengkap Anda</label>
+                  <div class="input-box">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" id="inputName" placeholder="" required>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <label for="inputEmail">Alamat Email Anda</label>
+                  <div class="input-box">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" id="inputEmail" placeholder="" required>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <label for="inputSubject">Subjek / Topik Proyek</label>
+                  <div class="input-box">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <input type="text" id="inputSubject" placeholder="" required>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <label for="inputMessage">Pesan Singkat</label>
+                  <div class="input-box textarea-box">
+                    <textarea id="inputMessage" rows="4" placeholder="" required></textarea>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-gold btn-send">
+                  <span>Kirim Pesan</span>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top-row">
+        <div class="footer-col-about">
+          <div class="footer-logo">
+            <span class="logo-text">Firdausi Nuzula</span>
+          </div>
+          <p class="footer-desc">
+            Desainer UI/UX yang berdedikasi menciptakan produk digital yang 
+            bermakna, aksesibel, dan elegan 
+            dengan memadukan empati manusia dan sistem desain terstruktur.
+          </p>
+        </div>
+
+        <div class="footer-col-links">
+          <h4>Navigasi Cepat</h4>
+          <ul>
+            <li><a href="#about">Tentang Saya dan   Biografi</a></li>
+            <li><a href="#tools">Alat yang Dikuasai</a></li>
+            <li><a href="#figma">Studi Kasus Figma</a></li>
+            <li><a href="#projects">Proyek Selesai</a></li>
+            <li><a href="#contact">Kanal Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social-icons">
+          <a href="mailto:firdausin007@gmail.com" title="Email"><i class="fa-regular fa-envelope"></i></a>
+          <a href="https://wa.me/6282245514388" target="_blank" rel="noopener" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://instagram.com/f.frdss__" target="_blank" rel="noopener" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/firdausinzzl" target="_blank" rel="noopener" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Pop-up Layar Penuh Gambar Figma (Lightbox Mode) -->
+  <div class="fullscreen-modal" id="figmaModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-lightbox-card">
+      <button class="lightbox-close-btn" id="modalClose" aria-label="Tutup Tampilan Penuh">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="lightbox-img-container">
+        <img src="aset/Figma.jpg" alt="Perbesar Gambar Desain" id="modalLightboxImg" class="lightbox-img">
+      </div>
+    </div>
+  </div>
+
+  <!-- Notifikasi Toast -->
+  <div class="toast-popup" id="toastPopup" role="alert" aria-live="assertive">
+    <div class="toast-badge"><i class="fa-solid fa-check"></i></div>
+    <span class="toast-txt" id="toastTxt">Tindakan berhasil diselesaikan</span>
+  </div>
+
+  <!-- Tombol Melayang Kembali ke Atas -->
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Kembali ke atas halaman">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Berkas JavaScript -->
+  <script src="java.js"></script>
+</body>
+</html>
